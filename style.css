@@ -1,0 +1,302 @@
+body {
+	background: url('https://image.freepik.com/free-photo/grey-surface-with-lines_1203-1513.jpg') no-repeat;
+	background-size: 2500px 250px;
+	background-repeat: no-repeat;
+	margin:0px;
+	padding:0px;
+}
+
+.nav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	display: inline-grid;
+	width: 200px;
+	height: 40px;
+	line-height: 10px;
+	text-align: center;
+}
+
+.nav a {
+	width: 100px;
+	display: block;
+	padding: 15px;
+	font-size: 17px;
+	font-family: Helvetica;
+	color: black;
+}
+
+.nav a:hover {
+	background: #e6e6e6;
+	opacity: 0.8;
+	transition : 0.4s;
+}
+
+.nav ul li ul li {
+	display: none;
+}
+
+.nav ul li:hover ul li {
+	display: block;
+}
+
+#name {
+	color: #999999;
+	width: 150px;
+	display: block;
+	padding: 15px;
+	font-size: 17px;
+	font-family: Helvetica;
+	text-decoration: none;
+}
+
+#name:hover {
+	font-size: 26px;
+	transition: 1.2s;
+	background: none;
+}
+
+#search {
+	width: 150px;
+	display:block;
+	padding: 15px;
+	font-size: 17px;
+	font-family: Helvetica;
+	text-decoration: none;
+	color: black;
+}
+
+#search:hover {}
+
+#me {
+	width: 100px;
+	display: block;
+	padding: 15px;
+	font-size: 17px;
+	font-family: Helvetica;
+}
+
+#me:hover {
+	background: #e6e6e6;
+	opacity: 0.8;
+	transition : 0.4s;
+	display: block;
+
+}
+
+.me-parent {
+	position:relative;
+}
+
+.me-box {
+	display: none;
+}
+
+.me-parent:hover .me-box {
+	position: absolute;
+	width: 300px;
+	left: 150px;
+	top: 0;
+	line-height: 25px;
+	background-color: rgba(250,250,250,0.5);
+	padding:15px;
+	font-family: Arial;
+	font-size: 12px;
+	border-radius: 50px;
+	display:block;
+}
+
+#L-P {
+	line-height:20px;
+	font-size:13px; 
+}
+
+#profile-pic {
+	border-radius: 250px;
+	width: 500px;
+	height: 500px;
+}
+.main-image {
+	text-align: center;
+}
+
+.title {
+	color: #595959;
+  	text-align: center;
+  	margin: 0px;
+}
+.freelance-technician{
+	margin-bottom: 0px;
+}
+
+#company-name {
+	color: #E3250B;
+}
+
+.first-color-container{
+	position: relative;
+	background-color:#BFC0BD;
+	width: 100% ;
+	padding-bottom: 210px;
+	display: flex;
+	justify-content: center;
+
+}
+
+#motive {
+	position: absolute;
+	padding:10px;
+	text-align:center;
+	font-family:helvetica;
+	font-size: 18px;
+	line-height: 20px;
+	color:#ffffff;
+}
+
+#motive1{
+	position: absolute;
+	padding : 100px;
+	text-align:center;
+	font-family:helvetica;
+	font-size: 25px;
+	color:#ffffff;
+}
+
+video { 
+	position:absolute;
+	width:100%;
+	z-index: 1;
+
+}
+
+.freeup-data{
+	position: relative;
+	color: #ffffff;
+  	text-align: center;
+  	font-size: 27px;
+  	font-family: helvetica;
+  	margin:0px;
+    z-index: 2;
+}
+.CHECK{
+	position: relative;
+	color:#E3250B;
+	text-align: center;
+  	font-family: helvetica;
+  	margin:45%;
+  	z-index: 2;
+  	margin-bottom:0px;
+}
+
+.layer-image{
+	position:relative;
+	margin:0 0 -25px 0;
+	padding:0;
+	display:block;		
+}
+
+#fix-iphone-pic{
+	width:100%;
+	opacity: 0.6;
+
+}	
+
+
+#lepak-repair{
+	position:absolute;
+	top:150px;
+	left:45px;
+	text-align: center;
+	font-family: helvetica;
+
+	
+}     
+.definition-lepak-repair{
+	position:absolute ;
+	top:220px;
+	left:25px;
+	width:300px;
+	line-height:25px;
+	font-family: helvetica;
+}
+
+.L-P-Pic{
+	position:absolute;
+	top:220px;
+	right:320px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin:0px;
+	padding:0px;
+
+}
+
+.image1{
+	width:300px;
+	height:200px;
+	padding : 35px;
+	border-radius: 100px;
+}
+
+#middle-image {
+	position:relative;
+	left:300px;
+
+}
+
+.second-color-container{
+	position:relative;
+	background-color:#ffffff;
+	padding:0px;
+	display:flex;
+	justify-content:center;
+	width:100%;
+	height:300px;
+	margin:0px;
+
+}
+.how{
+	position:absolute;
+	font-family:helvetica;
+	margin:5px;
+	color:#999999;
+}
+
+.define-how{
+	position:absolute;
+	font-family:helvetica;
+	top:20px;
+	background-color:#999999;
+	padding: 10px;
+	opacity:0.6;
+	font-size:20px;
+	border-radius:10px;
+}
+
+
+.whattsapp{
+	width:50px;
+	height:50px;
+	
+}
+.facebook{
+	width:60px;
+	height:60px;
+	
+}
+.instagram{
+	width:45px;
+	height:45px;
+
+}
+
+
+
+
+
+
